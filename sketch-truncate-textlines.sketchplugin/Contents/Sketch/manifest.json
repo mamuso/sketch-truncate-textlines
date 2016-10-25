@@ -1,0 +1,22 @@
+{
+  "name": "🙆 Yammer Sketch Tools",
+  "description": "Our design team swiss knife.",
+  "author": "Manuel Muñoz Solera",
+  "authorEmail": "mamuso@mamuso.net",
+  "version": "0.0.1",
+  "identifier": "io.mamuso.sketch.text-truncate-text-lines",
+  "commands": [
+    {
+      "name": "✂️ Truncate text lines",
+      "identifier": "text-truncate-text-lines",
+      "shortcut": "ctrl alt cmd t",
+      "script": "script.js"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": [
+      "text-truncate-text-lines"
+    ]
+  }
+}
